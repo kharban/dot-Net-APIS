@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountClosed" xml:space="preserve">
+    <value>Your account is closed/deleted. Please contact Administrator, if you have closed account accidentally.</value>
+  </data>
+  <data name="AccountDeactivated" xml:space="preserve">
+    <value>Your account is deactivated. Please contact Administrator, to active your account.</value>
+  </data>
+  <data name="InvalidPartnerID" xml:space="preserve">
+    <value>Invalid Partner Id.</value>
+  </data>
+  <data name="SorryInvalidRequest" xml:space="preserve">
+    <value>Sorry! Invalid request.</value>
+  </data>
+  <data name="MailAlreadyExist" xml:space="preserve">
+    <value>Oops! This entered email has already exist.</value>
+  </data>
+  <data name="MailNotVerified" xml:space="preserve">
+    <value>The email address entered is not verified. If you haven't received verification email. please resend it.</value>
+  </data>
+  <data name="ProfileUnderScreening" xml:space="preserve">
+    <value>Your profile is under screening. It will be activated within 24 working hours.</value>
+  </data>
+  <data name="RequestedProfileNameForData" xml:space="preserve">
+    <value>You Have Requested ProfileName For Data.</value>
+  </data>
+  <data name="RequestTypeIsNotThere" xml:space="preserve">
+    <value>Request Type is not there</value>
+  </data>
+  <data name="UserNameHasRequestedForData" xml:space="preserve">
+    <value>UserName Has Requested For Data.</value>
+  </data>
+  <data name="ActivationMailOfDilKeRisthe" xml:space="preserve">
+    <value>Activation mail of Dil Ke Risthe</value>
+  </data>
+  <data name="RequestSentSuccessfully" xml:space="preserve">
+    <value>Request Sent Successfully.</value>
+  </data>
+  <data name="NotVisibleToAll" xml:space="preserve">
+    <value>Not Visible To All.</value>
+  </data>
+  <data name="VisibleOnlyOnInvitationSendAccecpted" xml:space="preserve">
+    <value>Visible Only On Invitation Send Accecpted.</value>
+  </data>
+  <data name="VisibleToPremiumMembers" xml:space="preserve">
+    <value>Visible To Premium Members</value>
+  </data>
+  <data name="SharedPartnerProfileDetails" xml:space="preserve">
+    <value>Successfully Shared.</value>
+  </data>
+  <data name="BlockedSuccessfully" xml:space="preserve">
+    <value>Blocked Successfully</value>
+  </data>
+  <data name="IgnoreSuccessfully" xml:space="preserve">
+    <value>Ignore Successfully.</value>
+  </data>
+  <data name="ReportAbusedSuccessfully" xml:space="preserve">
+    <value>Report Abused Successfully.</value>
+  </data>
+  <data name="InvitationSentSuccessfully" xml:space="preserve">
+    <value>Invitation Sent Successfully.</value>
+  </data>
+  <data name="ShortlistedSuccessfully" xml:space="preserve">
+    <value>Shortlisted Successfully.</value>
+  </data>
+  <data name="InvitationRemovedSuccessfully" xml:space="preserve">
+    <value>Invitation Removed Successfully</value>
+  </data>
+  <data name="RemoveSuccessfully" xml:space="preserve">
+    <value>Remove Successfully</value>
+  </data>
+  <data name="NoListFound" xml:space="preserve">
+    <value>No List Found.</value>
+  </data>
+  <data name="SomethingWentWrong" xml:space="preserve">
+    <value>Something Went Wrong Please Try Again Later.</value>
+  </data>
+  <data name="MemberHasRecall" xml:space="preserve">
+    <value>Member Has Re-call.</value>
+  </data>
+  <data name="NotRemovePleaseTryAgain" xml:space="preserve">
+    <value>Not Remove. Please Try Again.</value>
+  </data>
+  <data name="PhotoUploadedSuccessfully" xml:space="preserve">
+    <value>Photo Uploaded Successfully.</value>
+  </data>
+  <data name="ThankYouForRegister" xml:space="preserve">
+    <value>Thank you for register with us. An Activation Link Is Sent To Your Email Address For Verified Your Email Address.</value>
+  </data>
+  <data name="PhotoDeletedSuccessfully" xml:space="preserve">
+    <value>Photo Deleted Successfully.</value>
+  </data>
+  <data name="PleaseTryAgainLater" xml:space="preserve">
+    <value>Please Try Again Later.</value>
+  </data>
+  <data name="PleaseUploadProfilePhoto" xml:space="preserve">
+    <value>Please Upload Profile Photo</value>
+  </data>
+  <data name="YouCantUploadMoreThan10Images" xml:space="preserve">
+    <value>You Can't Upload More Than 10 Images.</value>
+  </data>
+  <data name="ProfilePictureHasUpdated" xml:space="preserve">
+    <value>Profile Picture Has Updated.</value>
+  </data>
+  <data name="YourDilKeRishteProfileisUnderScreening" xml:space="preserve">
+    <value>Your Dil Ke Rishte Profile is Under Screening.</value>
+  </data>
+  <data name="ThankYouForVerifyYourEmailAddress" xml:space="preserve">
+    <value>Thank You For Verify Your Email Address. Your profile under screening it will be live in 12 working hours.</value>
+  </data>
+  <data name="YouHaveAlreadyVerifiedYourEmailId" xml:space="preserve">
+    <value>You have already verified your email id.</value>
+  </data>
+  <data name="Congratulations" xml:space="preserve">
+    <value>Congratulations</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddress" xml:space="preserve">
+    <value>Please enter your email address.</value>
+  </data>
+  <data name="PleaseTypeYourPassword" xml:space="preserve">
+    <value>Please type your password.</value>
+  </data>
+  <data name="ThankYouForLogin" xml:space="preserve">
+    <value>Thank you for login.</value>
+  </data>
+  <data name="TheEmailAddressPasswordEnteredInvalid" xml:space="preserve">
+    <value>The email address or password entered is invalid.</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Invalid Code</value>
+  </data>
+  <data name="ValidCode" xml:space="preserve">
+    <value>Valid Code</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>error</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Oops!!!</value>
+  </data>
+  <data name="PlanAddedSuccessfully" xml:space="preserve">
+    <value>Plan Added Successfully.</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="YouAlreadyFreeMember" xml:space="preserve">
+    <value>You Already Free Member.</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="IWillUploadIdLater" xml:space="preserve">
+    <value>I will Upload Id Later</value>
+  </data>
+  <data name="YouWouldHaveLimitedAccess" xml:space="preserve">
+    <value>You would have limited access to your account till your ID is verified by DKR team which may take upto 9 business hours</value>
+  </data>
+  <data name="MailSucessfullySent" xml:space="preserve">
+    <value>Mail Sucessfully Sent.</value>
+  </data>
+  <data name="YouHaveSuccessfullyRegistered" xml:space="preserve">
+    <value>You have successfully registered with us.</value>
+  </data>
+  <data name="ProfileNameHasAcceptedYourInvitation" xml:space="preserve">
+    <value>ProfileName Has Accepted Your Invitation.</value>
+  </data>
+  <data name="YouHaveAcceptedInvitationUserName" xml:space="preserve">
+    <value>You Have Accepted Invitation of Username</value>
+  </data>
+  <data name="YouNeedToUpgradeMembership" xml:space="preserve">
+    <value>You need to upgrade your membership to connect with premium member on  chat &amp; video call.</value>
+  </data>
+  <data name="InvitationAccepted" xml:space="preserve">
+    <value>Invitation Accepted</value>
+  </data>
+  <data name="PleaseUploadAtLeastOneIdentity" xml:space="preserve">
+    <value>Please upload at least one identity</value>
+  </data>
+  <data name="YourAccountUnderVerificationYouCanContactOurSupport" xml:space="preserve">
+    <value>Your account is under verification or you can contact our support</value>
+  </data>
+  <data name="YourVerificationIdentityHasBeenRejected" xml:space="preserve">
+    <value>Your verification identity has been rejected. Please upload your indentity</value>
+  </data>
+  <data name="FailedToAcceptInvitationPleaseTryAgain" xml:space="preserve">
+    <value>Failed To Accept Invitation. Please Try Again</value>
+  </data>
+  <data name="UserNameHasVisitedYourProfile" xml:space="preserve">
+    <value>UserName Has Visited Your Profile.</value>
+  </data>
+  <data name="PleaseEnterOTP" xml:space="preserve">
+    <value>Please Enter OTP.</value>
+  </data>
+  <data name="PleaseEnterCorrectOTP" xml:space="preserve">
+    <value>Please enter correct OTP.</value>
+  </data>
+  <data name="YourMobileNoIsVerifiedSuccessfully" xml:space="preserve">
+    <value>Your mobile no is verified successfully.</value>
+  </data>
+  <data name="AreYouSureToIgnoreThisMember" xml:space="preserve">
+    <value>Are you sure to ignore this member.</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="AreYouSureToSendInvitationThisMember" xml:space="preserve">
+    <value>Are you sure to send invitation this member.</value>
+  </data>
+  <data name="AreYouSureToShortlistThisMember" xml:space="preserve">
+    <value>Are you sure to shortlist this member</value>
+  </data>
+  <data name="AreYouSureToBlockThisMember" xml:space="preserve">
+    <value>Are you sure to block this member?</value>
+  </data>
+  <data name="AreYouSureToRecallUser" xml:space="preserve">
+    <value>Are you sure to recall user?</value>
+  </data>
+  <data name="AreYouSureToRemoveFromShortList" xml:space="preserve">
+    <value>Are you sure to remove from Short List?</value>
+  </data>
+  <data name="AreYouSureToRemoveUserFromIgnoreList" xml:space="preserve">
+    <value>Are you sure to remove user from ignore list?</value>
+  </data>
+  <data name="AreYouSureToReportAbuseThisMember" xml:space="preserve">
+    <value>Are you sure to report abuse this member?</value>
+  </data>
+  <data name="AreYouSureToUnblockUser" xml:space="preserve">
+    <value>Are you sure to unblock user?</value>
+  </data>
+  <data name="AreYouSureToCancelInvitation" xml:space="preserve">
+    <value>Are you sure to cancel invitation?</value>
+  </data>
+  <data name="SettingUpdated" xml:space="preserve">
+    <value>Setting Updated.</value>
+  </data>
+  <data name="ReminderSent" xml:space="preserve">
+    <value>Reminder Sent.</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>Alert !!!</value>
+  </data>
+  <data name="AreYouSureToRemindInvitation" xml:space="preserve">
+    <value>Are You Sure To Remind Invitation.</value>
+  </data>
+  <data name="ThankYouForSavingIdentityProofInformation" xml:space="preserve">
+    <value>Thank You For Saving Identity Proof Information!!</value>
+  </data>
+  <data name="ThankYouForUploadingGovtId" xml:space="preserve">
+    <value>Thank You For Uploading Govt Id !!</value>
+  </data>
+  <data name="YourIdIsUnderApproval" xml:space="preserve">
+    <value>Your Id Is Under Approval.</value>
+  </data>
+  <data name="YourOTPHasBeenSentYourMobileNo" xml:space="preserve">
+    <value>Your OTP has been sent to your mobile no. Please enter it to verify your mobile no.</value>
+  </data>
+  <data name="ContactSystemAdministrator" xml:space="preserve">
+    <value>You are not able to access your account. Please contact system administrator.</value>
+  </data>
+  <data name="DeletedSuccessfully" xml:space="preserve">
+    <value>Record Deleted Successfully.</value>
+  </data>
+  <data name="UpdateSuccessfully" xml:space="preserve">
+    <value>Update Successfully.</value>
+  </data>
+  <data name="InsertSuccessfully" xml:space="preserve">
+    <value>Added Successfully</value>
+  </data>
+  <data name="SelectImageValidation" xml:space="preserve">
+    <value>Please select jpg, jpeg or png file only</value>
+  </data>
+</root>

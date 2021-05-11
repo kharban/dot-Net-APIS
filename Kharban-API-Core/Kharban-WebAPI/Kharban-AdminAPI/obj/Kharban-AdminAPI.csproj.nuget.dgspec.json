@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-AdminAPI\\Kharban-AdminAPI.csproj": {}
+  },
+  "projects": {
+    "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-AdminAPI\\Kharban-AdminAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-AdminAPI\\Kharban-AdminAPI.csproj",
+        "projectName": "Kharban-AdminAPI",
+        "projectPath": "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-AdminAPI\\Kharban-AdminAPI.csproj",
+        "packagesPath": "C:\\Users\\vikass\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-AdminAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vikass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Insight.Database.Core": {
+              "target": "Package",
+              "version": "[6.3.5, )"
+            },
+            "Insight.Database.Providers.Default": {
+              "target": "Package",
+              "version": "[6.3.5, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Nexmo.Csharp.Client": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

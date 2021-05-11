@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-WebAPI\\Kharban-WebAPI.csproj": {}
+  },
+  "projects": {
+    "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-WebAPI\\Kharban-WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-WebAPI\\Kharban-WebAPI.csproj",
+        "projectName": "Kharban-WebAPI",
+        "projectPath": "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-WebAPI\\Kharban-WebAPI.csproj",
+        "packagesPath": "C:\\Users\\vikass\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\Kharban-API-Core\\Kharban-WebAPI\\Kharban-WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vikass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.5.10, )"
+            },
+            "Insight.Database.Core": {
+              "target": "Package",
+              "version": "[6.3.4, )"
+            },
+            "Insight.Database.Providers.Default": {
+              "target": "Package",
+              "version": "[6.3.4, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.Owin.Security.OAuth": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Nexmo.Csharp.Client": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
